@@ -34,6 +34,7 @@ namespace ValoresEspeciais
             Console.WriteLine(float.NegativeInfinity);
             Console.WriteLine(double.NaN);
             Console.WriteLine(float.NaN);
+            Console.WriteLine(unchecked(uint.MaxValue + 1));
         }
     }
 }
