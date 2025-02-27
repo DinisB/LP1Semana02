@@ -37,6 +37,7 @@ namespace ValoresEspeciais
             Console.WriteLine(unchecked(uint.MaxValue + 1));
             Console.WriteLine(unchecked(float.MaxValue * 2));
             Console.WriteLine(unchecked(float.MaxValue * float.MaxValue));
+            Console.WriteLine(unchecked(float.MinValue * 2));
         }
     }
 }
