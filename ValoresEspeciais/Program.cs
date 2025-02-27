@@ -28,6 +28,12 @@ namespace ValoresEspeciais
             Console.WriteLine(long.MaxValue);
             Console.WriteLine(ulong.MinValue);
             Console.WriteLine(ulong.MaxValue);
+            Console.WriteLine(double.PositiveInfinity);
+            Console.WriteLine(double.NegativeInfinity);
+            Console.WriteLine(float.PositiveInfinity);
+            Console.WriteLine(float.NegativeInfinity);
+            Console.WriteLine(double.NaN);
+            Console.WriteLine(float.NaN);
         }
     }
 }
