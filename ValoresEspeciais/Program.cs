@@ -35,6 +35,8 @@ namespace ValoresEspeciais
             Console.WriteLine(double.NaN);
             Console.WriteLine(float.NaN);
             Console.WriteLine(unchecked(uint.MaxValue + 1));
+            Console.WriteLine(unchecked(float.MaxValue * 2));
+            Console.WriteLine(unchecked(float.MaxValue * float.MaxValue));
         }
     }
 }
