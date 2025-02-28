@@ -10,9 +10,9 @@ namespace PerfectCountdown
         private static void Main(string[] args)
         {
             while (true){
-            Console.Write("Start Number: ");
+            Console.Write("Start number: ");
             int.TryParse(Console.ReadLine(), out int start);
-            Console.Write("Step Number: ");
+            Console.Write("Step number: ");
             int.TryParse(Console.ReadLine(), out int step);
 
             if (start <= 1){
