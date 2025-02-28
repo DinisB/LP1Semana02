@@ -9,6 +9,7 @@ namespace PerfectCountdown
     {
         private static void Main(string[] args)
         {
+            while (true){
             Console.Write("Start Number: ");
             int.TryParse(Console.ReadLine(), out int start);
             Console.Write("Step Number: ");
@@ -16,12 +17,22 @@ namespace PerfectCountdown
 
             if (start <= 1){
                 Console.WriteLine("Out-of-range start or step. Try again.");
+                continue;
             }
             else if (step >= start){
                 Console.WriteLine("Start must be higher than step. Try again.");
+                continue;
             }
             else if (start % step != 0) {
                 Console.WriteLine("Start not divisible by step. Try again.");
+                continue;
+            }
+            while (start != 0){
+                Console.WriteLine(start);
+                start -= step;
+            }
+            Console.WriteLine(start);
+            break;
             }
         }
     }
